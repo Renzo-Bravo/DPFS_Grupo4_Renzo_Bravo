@@ -33,7 +33,7 @@ El diseño busca ser sencillo y adaptable, priorizando la velocidad de carga y l
 
 1. Tablero:
    ```bash
-    https://trello.com/b/h9aciVLY/proyecto
+   https://trello.com/b/h9aciVLY/proyecto
 
 ---
 
