@@ -4,14 +4,21 @@ MoviGo es una página web dedicada a la venta y promoción de bicicletas. Su obj
 
 ---
 
-## Descripción
+## Descripción 📒
 
 El sitio permite explorar un catálogo de bicicletas, ver detalles de cada modelo, y contactar con la tienda.  
 El diseño busca ser sencillo y adaptable, priorizando la velocidad de carga y la facilidad de navegación.
 
 ---
 
-## Tecnologías utilizadas
+## Colores 🔴🟢🔵
+
+- Gris 🩶
+- Amarillo 💛
+
+---
+
+## Tecnologías utilizadas 💻
 
 - HTML5  
 - CSS3  
@@ -22,8 +29,17 @@ El diseño busca ser sencillo y adaptable, priorizando la velocidad de carga y l
 
 ---
 
-## Instalación
+## Trello 📋
+
+1. Tablero:
+   ```bash
+    https://trello.com/b/h9aciVLY/proyecto
+
+---
+
+## Instalación ⬇️
 
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Renzo-Bravo/DPFS_Grupo4_Renzo_Bravo.git
+
