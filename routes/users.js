@@ -1,10 +1,10 @@
-var express = require("express");
+const express = require("express");
 const usersCtrl = require("../controllers/usersCtrl");
 const upload = require("../middlewares/multerProfile.js");
 const logged = require("../middlewares/logged.js");
 const guest = require("../middlewares/guest.js");
 
-var router = express.Router();
+const router = express.Router();
 
 /* GET login page */
 router.get("/login", guest,usersCtrl.login);
