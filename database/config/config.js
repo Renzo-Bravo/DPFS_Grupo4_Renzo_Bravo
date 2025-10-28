@@ -2,7 +2,7 @@ module.exports = {
   "development": {
     "username": "root",
     "password": "rrbb2298",
-    "database": "moviGo_db",
+    "database": "movigo_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
