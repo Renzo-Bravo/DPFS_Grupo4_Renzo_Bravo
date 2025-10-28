@@ -1,3 +1,5 @@
+const { all } = require("../../routes/products");
+
 module.exports = (sequelize, DataTypes) => {
   const alias = "Size";
 
@@ -9,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     size: {
       type: DataTypes.STRING(20),
+      allowNull: false,
     },
   };
 

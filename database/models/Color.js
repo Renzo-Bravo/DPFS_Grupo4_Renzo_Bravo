@@ -1,3 +1,5 @@
+const { all } = require("../../routes/products");
+
 module.exports = (sequelize, DataTypes) => {
   const alias = "Color";
 
@@ -9,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     color: {
       type: DataTypes.STRING(50),
+      allowNull: false,
     },
     code: {
       type: DataTypes.STRING(150),

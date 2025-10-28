@@ -9,6 +9,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     gender: {
       type: DataTypes.STRING(50),
+      allowNull: false,
     },
   };
 
