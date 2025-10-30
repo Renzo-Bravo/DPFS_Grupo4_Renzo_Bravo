@@ -4,7 +4,7 @@ module.exports = {
       "products",
       [
         {
-          id: 2,
+          id: 1,
           brand_id: 1,
           category_id: 2,
           color_id: 1,
@@ -13,6 +13,7 @@ module.exports = {
           model: "RS2025",
           price: "22",
           size_id: 1,
+          sale_id: 1, 
           image: "image-1759030748535.jpeg",
         },
       ],
