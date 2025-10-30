@@ -25,7 +25,7 @@ const adminCtrl = {
         color: req.body.color,
       };
 
-      await db.Colors.create(newColor);
+      await db.Color.create(newColor);
 
       res.redirect("/");
     } catch (error) {
