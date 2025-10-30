@@ -5,4 +5,5 @@ const router = express.Router();
 /* GET home page. */
 router.get("/", indexCtrl.index);
 
+
 module.exports = router;
