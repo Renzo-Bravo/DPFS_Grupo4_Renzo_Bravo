@@ -1,5 +1,5 @@
 const express = require("express");
-const indexCtrl = require("../controllers/indexCtrl");
+const indexCtrl = require("../controllers/index-controller");
 const router = express.Router();
 
 /* GET home page. */

@@ -1,5 +1,5 @@
 const express = require("express");
-const usersCtrl = require("../controllers/usersCtrl");
+const usersCtrl = require("../controllers/user-controller.js");
 const upload = require("../middlewares/multerProfile.js");
 const logged = require("../middlewares/logged.js");
 const guest = require("../middlewares/guest.js");
