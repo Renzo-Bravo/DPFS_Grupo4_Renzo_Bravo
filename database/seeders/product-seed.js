@@ -12,7 +12,7 @@ module.exports = {
           gender_id: 2,
           model: "RS2025",
           price: "22",
-          size_id: null,
+          size_id: 1,
           image: "image-1759030748535.jpeg",
         },
       ],

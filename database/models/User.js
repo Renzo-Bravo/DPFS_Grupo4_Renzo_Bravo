@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
       references: {
         model: "roles",
         key: "id",
-      }
+      },
     },
     email: {
       type: DataTypes.STRING(150),
@@ -57,11 +57,12 @@ module.exports = (sequelize, DataTypes) => {
     timestamps: false,
   };
 
-  const Users = sequelize.define(alias, cols, config);
+  const User = sequelize.define(alias, cols, config);
 
-  Users.associate = (models) => {
-    Users.belongsTo(models.Genders, { foreignKey: "gender_id", as: "gender" });
+  User.associate = (models) => {
+    User.belongsTo(models.Gender, { foreignKey: "gender_id", as: "genero" });
+    User.belongsTo(models.Rol, { foreignKey: "rol_id", as: "Rango" });
   };
 
-  return Users;
+  return User;
 };
